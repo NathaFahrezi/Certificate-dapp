@@ -42,20 +42,3 @@ certificate-dapp/
 ├── hardhat.config.js
 └── README.md
 
----
-
-## 🧼 Useful Scripts
-# Compile contracts
-npx hardhat compile
-
-# Deploy contract
-npx hardhat run scripts/deploy.js --network sepolia
-
-# Start frontend dev server
-cd frontend
-npm run dev
-
---
-
-## 🙌 Credits
-Developed by NathaFhrz for Final Project: Blockchain-based Certificate Storage DApp.
