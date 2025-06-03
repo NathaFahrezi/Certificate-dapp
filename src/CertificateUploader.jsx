@@ -62,7 +62,7 @@ const CertificateUploader = () => {
             value={name}
             onChange={(e) => setName(e.target.value)}
             className="w-full border rounded px-3 py-2"
-            placeholder="Contoh: Indra Yones"
+            placeholder="Masukkan Nama"
           />
         </div>
 
@@ -73,7 +73,7 @@ const CertificateUploader = () => {
             value={certificateId}
             onChange={(e) => setCertificateId(e.target.value)}
             className="w-full border rounded px-3 py-2"
-            placeholder="Contoh: CERT12345"
+            placeholder="Masukkan ID"
           />
         </div>
 
